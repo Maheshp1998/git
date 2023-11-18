@@ -3,8 +3,22 @@
 **Configuration**
 git config: Set user name and email globally.
 >>>>>>>>>>>>>
-git config --global user.name "Your Name"
-git config --global user.email "your_email@example.com"
+git config --global user.name "Maheshp1998"
+git config --global user.email "patil.mahesh.sit@gmail.com"
+
+Check Global Configuration
+>>>>>>>>>>>>>
+git config --global --list
+
+Check Local Repository Configuration
+>>>>>>>>>>>>>
+git config --list
+
+Check a Specific Configuration
+>>>>>>>>>>>>>
+git config user.email
+git config user.name
+
 ----------------------------------------------------------------------------------------------------------------
 
 **Starting a Repository**
